@@ -26,6 +26,27 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Environment Configuration
+
+Before running the application, make sure to set up your environment variables. Create a `.env` file in the root directory of your project and add the following variables:
+
+```plaintext
+DB_HOST=your_host
+DB_PORT=your_port
+DB_USERNAME=your_username
+DB_PASSWORD=your_password
+DB_NAME=your_dbname
+
+SECRET_KEY=jwt_secret key(Seceure this hashing encryption key)
+ENCRYPTION_KEY=encryption_secret key(Seceure this encryption key if you decide to encrypt data)
+
+N/B
+Use Hashing Instead of Encryption for your passwords in your database, this is because
+Hashing is a one way methid but encrypted passwords can be decrypted if the algorithm used is known 
+
+HAPPY CODING !!!!!!!!!!!!!!!!!!!!
+
+
 ## Installation
 
 ```bash
